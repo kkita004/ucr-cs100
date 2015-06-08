@@ -1,2 +1,16 @@
-/ 100
+97.5/ 100
+Last update Fri May 1 23:52:51 2015 -0700
+
+Error checking for syscalls
+
+file: [src/ls.cpp] -0
+
+
+-2.5 for missing tests:
+-0: bin/ls -a.*-l.*-R flag does not work
+-0: bin/ls -a.*-R.*-l flag does not work
+-0: bin/ls -l.*-R.*-a flag does not work
+-0: bin/ls -R.*-a.*-l flag does not work
+-0: bin/ls -R.*-l.*-a flag does not work
+
 
